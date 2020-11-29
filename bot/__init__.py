@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# (c) Shrimadhav U K
+# -*- coding: utf-8 -*
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -73,13 +72,13 @@ def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
 
 
-REQD_PERMISSIONS = "https://t.me/SpEcHlDe/857"
-GIT_REPO_LINK = "https://github.com/SpEcHiDe/DeleteMessagesRoBot"
+REQD_PERMISSIONS = "https://t.me/cyberwordk"
+GIT_REPO_LINK = "https://t.me/kavinduaj"
 """ strings to be used in the bot """
 START_MESSAGE = get_config("START_MESSAGE", (
     "I'm a bot that can delete <s>all</s> your channel or supergroup messages. "
     "\n\n"
-    f"To use me: read 👉 {REQD_PERMISSIONS} 👈"
+    f"To use me: Join 👉 {REQD_PERMISSIONS} 👈"
     "\n\n"
     f"In case of issues, contact 👉 {GIT_REPO_LINK} 👈"
 ))
